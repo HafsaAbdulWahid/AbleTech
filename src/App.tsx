@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import LoginForm from "./Pages/UserAuthentication/LoginForm";
 import UserDashboard from "./Pages/UserAuthentication/UserDashboard";
 import RegisterParent from "./Pages/UserAuthentication/RegisterParent";
-import Homepage from "./Pages/UserAuthentication/Homepage";
 
 export default function ProjectRoutes() {
   return (
@@ -11,7 +10,7 @@ export default function ProjectRoutes() {
       <Route path="/login" element={<LoginForm />} />
       <Route path="/register" element={<RegisterParent />} />
       <Route path="/userDashboard" element={<UserDashboard />} />
-      <Route path="/home" element={<Homepage />} />
+      {/* <Route path="/home" element={<HomePageMain />} /> */}
 
     </Routes>
   );

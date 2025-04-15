@@ -10,7 +10,7 @@ import Logo from "../../Images/Logo.png";
 
 export default function Navbar() {
     return (
-        <Box bg="#1e2738" px={10} pt={3}>
+        <Box bg="#1e2738" px={10} py={3}>
             <Flex align="center">
                 <Flex align="center" gap={2}>
                     <Image
@@ -34,7 +34,7 @@ export default function Navbar() {
 
                 <Spacer />
 
-                <Flex gap={2} align="center">
+                <Flex gap={3} align="center">
                     <Text color="white" px={6} fontSize="sm" cursor="pointer">
                         Login
                     </Text>
